@@ -1,0 +1,70 @@
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Estilo para o container principal */
+body {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  font-family: Arial , sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para o título "Doguinhos" */
+h1 {
+  color: #ff6b6b;
+  font-size: 32px;
+}
+
+/* Estilo para o botão "Novo doguinho!" */
+button {
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e54848;
+}
+
+/* Estilo para a imagem do cachorro */
+img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  max-height: 75vh;
+  max-width: 80%;
+  width: 80%;
+}
+
+/* Estilo para o subtítulo com a raça do cachorro */
+h2 {
+  color: #2ecc71;
+  font-size: 24px;
+  margin-top: 10px;
+}
